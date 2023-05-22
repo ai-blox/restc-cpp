@@ -80,6 +80,6 @@ int main() {
     .get();
 
     // Print the result for everyone to see.
-    cout << "Received post# " << my_post.id << ", title: " << my_post.title
-        << endl;
+    cout << "Received post# " << my_post.id << endl << endl << "Title: " << endl << my_post.title
+        << endl << endl << "Body:  " << endl << my_post.body << endl;
 }
